@@ -36,4 +36,4 @@ On top of these general hyperparameters the following two additional hyperparame
 - in the step() method of the Agent , the agent was modified in such a way that it is learning 10 times in a row (from random subset of the replay buffer) , and this each 10 steps (this led to drastically boosting the learning of the neural network)
 
 ## Graph
-[graph](graph.jpg)
+![graph](graph.jpg)
