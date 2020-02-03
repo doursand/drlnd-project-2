@@ -31,5 +31,7 @@ Select the environment that matches your operating system:
   - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
   - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
 
+Once downloaded, extract the file in your repository folder
+
 ## Solving the Environment
 To solve the environement the agent need to get an average score of +30 over 100 consecutive episodes.
