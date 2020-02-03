@@ -1,6 +1,8 @@
 # drlnd-project-2
 Continuous control with deep reinforcement learning
 
+![trained](trained.gif)
+
 ## The Environment
 For this project, we will work with the [Unity ML-Agents environment](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md)
 
