@@ -17,16 +17,17 @@ Even though this repository present the solution developped directely in the Uda
 ### Download the Unity Environment
 Select the environment that matches your operating system:
 
-Version 1: One (1) Agent
-Linux: click here
-Mac OSX: click here
-Windows (32-bit): click here
-Windows (64-bit): click here
-Version 2: Twenty (20) Agents
-Linux: click here
-Mac OSX: click here
-Windows (32-bit): click here
-Windows (64-bit): click here
+- Version 1: One (1) Agent
+-- Linux: click here
+-- Mac OSX: click here
+-- Windows (32-bit): click here
+-- Windows (64-bit): click here
+
+- Version 2: Twenty (20) Agents
+--Linux: click here
+--Mac OSX: click here
+--Windows (32-bit): click here
+--Windows (64-bit): click here
 
 ## Solving the Environment
 To solve the environement the agent need to get an average score of +30 over 100 consecutive episodes.
