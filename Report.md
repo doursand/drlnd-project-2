@@ -11,7 +11,7 @@ The DDPG algorithm consists on two separated neural networks :
 
 Each of these networks maintain a current version (that we are training using experience buffer) and a target version which are updated on a regular basis using a soft update mechanism (meaning that only a small portion of the weights from the current networks are transfer to the target network)
 
-The Actor and the Critic neural net use the same architecture in my implementation, ie using two hidden layer of 256 and 128 + batch normalization on the first hidden layer, and Relu for the activation function
+The Actor and the Critic neural net use the same architecture in my implementation, ie using two hidden layer of 256 and 128 neurons , batch normalization on the first hidden layer, and Relu for the activation function
 
 ## Agent setup
 The agent is setup to learn from an experience buffer, meaning that we are collecting a given amount of experiences tuples (state", "action", "reward", "next_state", "done") before using mini-batches randomly selected from this experience buffer in order to train the current version of the neural networks
@@ -30,9 +30,10 @@ The following hyperparameters led to the solving of the environment in 240 episo
 - WEIGHT_DECAY = 0       # L2 weight decay
 
 
-On top of these general hyperparameters the following two additional hyperparameters were instrumental to the convergence of the model :
+On top of these general hyperparameters the following two additional hyperparameters were instrumental to the quick convergence of the model :
 
 - in OUNoise class, decrease the parameter sigma to 0.1 (instead of 0.2)
-- in the step() method of the Agent , the agent was modified in such a way that it is learning 10 consecutive times each 10 steps (this led to drastically boosting the learning of the neural network)
+- in the step() method of the Agent , the agent was modified in such a way that it is learning 10 times in a row (from random subset of the replay buffer) , and this each 10 steps (this led to drastically boosting the learning of the neural network)
 
-
+## Graph
+[graph](graph.jpg]
