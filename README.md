@@ -1,5 +1,5 @@
 # drlnd-project-2
-Continuous control with deep reinforcement learning
+Continuous control with deep reinforcement learning : project 2 for the Udacity Deep Reinforcement Learning nano degree
 
 ![trained](trained.gif)
 
