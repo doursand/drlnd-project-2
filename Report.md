@@ -14,8 +14,8 @@ Each of these networks maintain a current version (that we are training using ex
 The Actor and the Critic neural net use the same architecture in my implementation, ie using two hidden layer of 256 and 128 neurons , batch normalization on the first hidden layer, and Relu for the activation function
 
 ## Agent setup
-The agent is setup to learn from an experience buffer, meaning that we are collecting a given amount of experiences tuples (state", "action", "reward", "next_state", "done") before using mini-batches randomly selected from this experience buffer in order to train the current version of the neural networks
-To avoid stationary learning, we are using random noise (Ornstein-Uhlenbeck process), so that we keep on exploring new states
+The agent is setup to learn from an experience buffer, meaning that we are collecting a given amount of experiences tuples (state", "action", "reward", "next_state", "done") before using mini-batches randomly selected from this experience buffer in order to train the current version of the neural networks.
+To avoid stationary learning, we are using random noise (Ornstein-Uhlenbeck process), so that we keep on exploring new possibilities
 
 ## hyperparameters
 
