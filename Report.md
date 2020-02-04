@@ -37,3 +37,7 @@ On top of these general hyperparameters the following two additional hyperparame
 
 ## Graph
 ![graph](graph.jpg)
+
+## Potential improvements
+it would be interesting to experiment with the version of the environment with 20 agents. That would also open up for more advanced algorithm like PPO, D4PG or NAF which are leveraging parallel processing of agent to boost the experience gathering. In particular, [NAF](https://arxiv.org/abs/1603.00748) seems quite interesting , as it seems to do a better job to learn a stable policy (as opposed to DDPG). It also seems more adapted for areas where precision is key (like robotic arms precisely, so similar to the problem we are trying to solve here)
+
